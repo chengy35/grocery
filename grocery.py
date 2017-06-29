@@ -23,7 +23,7 @@ def readFileTolist(filename):
     return fileList
 
 if  __name__=='__main__':
-    filelist = ['E:/127.txt','E:/185.txt']
+    filelist = ['./127.txt','./185.txt']
     Allword = pd.DataFrame([])
     index = 0
     #grocery = Grocery('test')
